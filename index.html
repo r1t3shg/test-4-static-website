@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stackyn Static Test</title>
     <link rel="stylesheet" href="style.css">
-    <script src="log-emitter.js"></script>
 </head>
 <body>
     <div class="container">
@@ -16,11 +15,16 @@
             <section class="hero">
                 <p class="subtitle">A simple static website for testing static site hosting</p>
             </section>
+            <section class="logs-section">
+                <h2>Live Logs</h2>
+                <div id="log-container" class="log-container"></div>
+            </section>
         </main>
         <footer>
             <p>&copy; 2025 Stackyn Static Test</p>
         </footer>
     </div>
+    <script src="log-emitter.js"></script>
 </body>
 </html>
 
